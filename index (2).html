@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Consultora Diaz | Asesoría Legal Online en Perú</title>
+<meta name="description" content="Asesoría legal 100% online en todo el Perú. Vivienda, familia, herencias, laboral e Indecopi. Consulta por videollamada o WhatsApp desde S/30.">
+<meta name="theme-color" content="#0A1628">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="Consultora Diaz | Asesoría Legal Online">
+<meta property="og:description" content="Tu tranquilidad legal, a un clic de distancia. Atención 100% online en todo el Perú.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_PE">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --ink:#0A1628; --ink-2:#152840; --ink-3:#060F1C;
+  --gold:#C9A24B; --gold-soft:#E4CB8A; --gold-glow:rgba(201,162,75,.28);
+  --paper:#F7F4EE; --paper-2:#EFEAE0; --surface:#FFFFFF;
+  --text:#1B2434; --muted:#5A6472; --line:#E4E1D7; --line-2:#D8D3C4;
+  --danger:#B23A3A;
+  --serif:'Playfair Display','Iowan Old Style',Palatino,Georgia,serif;
+  --sans:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --mono:'IBM Plex Mono',ui-monospace,'SF Mono',Menlo,monospace;
+  --wrap:1160px; --radius:14px; --radius-sm:8px;
+  --shadow-sm:0 1px 2px rgba(10,22,40,.06),0 2px 8px rgba(10,22,40,.04);
+  --shadow:0 10px 30px rgba(10,22,40,.08);
+  --shadow-lg:0 24px 60px rgba(10,22,40,.18);
+  --t:.35s cubic-bezier(.2,.7,.3,1);
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--sans);color:var(--text);background:var(--paper);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer;border:none;background:none;color:inherit}
+input,select,textarea{font:inherit;color:inherit}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:600;line-height:1.15;text-wrap:balance;color:var(--ink)}
+h1{font-size:clamp(2.1rem,5vw,3.6rem);letter-spacing:-.01em}
+h2{font-size:clamp(1.75rem,3.6vw,2.6rem);letter-spacing:-.005em}
+h3{font-size:1.25rem}
+p{text-wrap:pretty}
+.eyebrow{font-family:var(--mono);font-size:.78rem;text-transform:uppercase;letter-spacing:.14em;color:var(--gold);font-weight:500}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.wrap{width:min(var(--wrap),92%);margin-inline:auto}
+section{padding:96px 0}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:4px}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;scroll-behavior:auto!important}}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;padding:14px 26px;border-radius:999px;font-weight:600;font-size:.98rem;border:1.5px solid transparent;transition:transform var(--t),background var(--t),color var(--t),box-shadow var(--t),border-color var(--t);white-space:nowrap}
+.btn:hover{transform:translateY(-1px)}
+.btn-gold{background:var(--gold);color:var(--ink);box-shadow:0 6px 18px var(--gold-glow)}
+.btn-gold:hover{background:var(--gold-soft);box-shadow:0 10px 26px var(--gold-glow)}
+.btn-outline{background:transparent;border-color:var(--gold);color:var(--gold)}
+.btn-outline:hover{background:var(--gold);color:var(--ink)}
+.btn-sm{padding:10px 18px;font-size:.88rem}
+.btn svg{width:16px;height:16px}
+
+.site-header{position:sticky;top:0;z-index:60;background:rgba(10,22,40,.94);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid rgba(201,162,75,.18)}
+.header-row{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 0}
+.logo{display:inline-flex;align-items:center;gap:12px;color:#fff}
+.logo-mark{width:42px;height:42px;color:var(--gold);animation:float 5s ease-in-out infinite}
+.logo:hover .logo-mark{filter:drop-shadow(0 0 10px var(--gold-glow))}
+.logo-txt b{font-family:var(--serif);font-size:1.22rem;color:#fff;display:block;letter-spacing:.01em;line-height:1}
+.logo-txt span{display:block;font-family:var(--mono);font-size:.68rem;color:var(--gold);letter-spacing:.18em;text-transform:uppercase;margin-top:4px}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}
+.nav ul{display:flex;gap:28px;list-style:none;align-items:center}
+.nav a{color:#e2e5ea;font-size:.94rem;font-weight:500;transition:color .2s;padding:6px 0}
+.nav a:hover{color:var(--gold)}
+.header-cta{display:flex;gap:14px;align-items:center}
+.header-contact{display:flex;flex-direction:column;gap:3px;align-items:flex-end;font-size:.8rem;color:#e2e5ea}
+.header-contact a{display:inline-flex;align-items:center;gap:6px;transition:color .2s}
+.header-contact a:hover{color:var(--gold)}
+.header-contact svg{width:12px;height:12px;color:var(--gold);flex-shrink:0}
+.menu-btn{display:none;color:#fff;font-size:1.5rem;padding:6px 10px}
+
+.hero{background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(201,162,75,.10),transparent 60%),linear-gradient(160deg,var(--ink) 0%,var(--ink-2) 100%);color:#fff;text-align:center;padding:110px 0 90px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.02) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.02) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 70% 60% at 50% 50%,black 30%,transparent 75%);pointer-events:none}
+.hero .wrap{position:relative;z-index:1}
+.hero .eyebrow{color:var(--gold);margin-bottom:16px;display:inline-block}
+.hero h1{color:#fff;max-width:20ch;margin:0 auto 18px}
+.hero h1 em{font-style:italic;color:var(--gold-soft);font-weight:500}
+.hero .lead{font-size:clamp(1.02rem,1.8vw,1.2rem);color:#c9d2de;max-width:620px;margin:0 auto 32px}
+.hero-actions{display:inline-flex;gap:14px;flex-wrap:wrap;justify-content:center;margin-bottom:44px}
+.trust-chips{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:center;padding-top:26px;border-top:1px solid rgba(255,255,255,.08);max-width:760px;margin:0 auto}
+.chip{display:inline-flex;align-items:center;gap:8px;color:#c9d2de;font-size:.86rem}
+.chip svg{width:16px;height:16px;color:var(--gold);flex-shrink:0}
+
+.metrics{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.metrics-grid{display:grid;grid-template-columns:repeat(4,1fr);padding:36px 0}
+.metric{text-align:center;padding:8px 12px;border-right:1px solid var(--line)}
+.metric:last-child{border-right:none}
+.metric .n{font-family:var(--serif);font-size:2.2rem;color:var(--ink);font-weight:600;line-height:1;letter-spacing:-.02em}
+.metric .n small{font-size:1.4rem;color:var(--gold);font-weight:500}
+.metric .l{font-family:var(--mono);font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-top:8px}
+
+.section-head{text-align:center;margin-bottom:56px;max-width:640px;margin-inline:auto}
+.section-head .eyebrow{display:block;margin-bottom:10px}
+.section-head p{color:var(--muted);margin-top:12px;font-size:1.02rem}
+
+.areas{background:var(--paper)}
+.areas-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.area-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:28px 24px;transition:transform var(--t),box-shadow var(--t),border-color var(--t);display:flex;flex-direction:column}
+.area-card:hover{transform:translateY(-4px);border-color:var(--gold);box-shadow:var(--shadow)}
+.area-card .ico{width:40px;height:40px;color:var(--gold);margin-bottom:16px;stroke-width:1.5}
+.area-card h3{font-size:1.15rem;margin-bottom:8px}
+.area-card p{color:var(--muted);font-size:.92rem;line-height:1.55;margin-bottom:18px;flex-grow:1}
+.area-card .card-link{color:var(--gold);font-size:.86rem;font-weight:600;font-family:var(--mono);display:inline-flex;align-items:center;gap:6px;letter-spacing:.04em}
+.area-card .card-link::after{content:"→";transition:transform .25s}
+.area-card:hover .card-link::after{transform:translateX(4px)}
+
+.proceso{background:var(--paper-2)}
+.pasos{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;position:relative}
+.pasos::before{content:"";position:absolute;top:32px;left:8%;right:8%;height:1px;background:repeating-linear-gradient(90deg,var(--line-2) 0 6px,transparent 6px 12px);z-index:0}
+.paso{position:relative;z-index:1;text-align:center;padding:0 8px}
+.paso .num{display:inline-flex;align-items:center;justify-content:center;width:64px;height:64px;border-radius:50%;background:var(--surface);border:1.5px solid var(--gold);color:var(--ink);font-family:var(--serif);font-size:1.4rem;font-weight:600;margin-bottom:18px;box-shadow:var(--shadow-sm)}
+.paso h3{font-size:1.05rem;margin-bottom:8px}
+.paso p{color:var(--muted);font-size:.9rem;line-height:1.55}
+
+.precios{background:var(--surface)}
+.grupo-titulo{font-family:var(--serif);font-size:1.4rem;color:var(--ink);text-align:center;margin:0 0 28px;font-weight:600}
+.grupo-titulo::after{content:"";display:block;width:40px;height:2px;background:var(--gold);margin:12px auto 0}
+.precios-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:22px;margin-bottom:64px}
+.precios-grid.last{margin-bottom:0}
+.price-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:32px 28px;text-align:center;position:relative;transition:transform var(--t),box-shadow var(--t);display:flex;flex-direction:column}
+.price-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.price-card.featured{border:1.5px solid var(--gold);background:linear-gradient(180deg,#FFFCF3,#fff);box-shadow:var(--shadow-lg);transform:translateY(-4px)}
+.badge{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--gold);color:var(--ink);font-family:var(--mono);font-size:.7rem;font-weight:600;padding:6px 14px;border-radius:999px;letter-spacing:.12em;text-transform:uppercase}
+.price-card h3{font-size:1.2rem;margin-bottom:6px}
+.price-card .price{font-family:var(--serif);font-size:2.4rem;color:var(--ink);margin:12px 0 4px;font-weight:600;letter-spacing:-.02em}
+.price-card .price-note{font-size:.82rem;color:var(--muted);margin-bottom:22px;font-family:var(--mono);letter-spacing:.04em}
+.price-card ul{list-style:none;text-align:left;margin:0 0 26px;flex-grow:1}
+.price-card li{padding:8px 0;color:var(--text);font-size:.92rem;display:flex;gap:10px;align-items:flex-start}
+.price-card li::before{content:"";flex-shrink:0;width:16px;height:16px;background:var(--gold);mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='black'%3E%3Cpath d='M7.5 13.5L4 10l-1.4 1.4L7.5 16.3 17 6.8 15.6 5.4z'/%3E%3C/svg%3E");mask-size:contain;mask-repeat:no-repeat;margin-top:4px}
+
+.testimonios{background:var(--paper)}
+.testi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
+.testi{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:32px 28px;position:relative}
+.testi::before{content:"\201C";position:absolute;top:14px;left:20px;font-family:var(--serif);font-size:4rem;color:var(--gold);opacity:.35;line-height:1}
+.testi blockquote{font-family:var(--serif);font-size:1.05rem;line-height:1.55;color:var(--ink);font-style:italic;margin:20px 0;font-weight:500}
+.testi .who{display:flex;flex-direction:column;gap:2px;border-top:1px solid var(--line);padding-top:16px}
+.testi .who strong{font-size:.92rem;color:var(--ink);font-weight:600}
+.testi .who span{font-family:var(--mono);font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
+.testi .who em{font-size:.82rem;color:var(--muted);font-style:normal;margin-top:6px}
+
+.faq{background:var(--paper-2)}
+.faq-list{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:12px}
+.faq-item{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius-sm);overflow:hidden}
+.faq-item summary{list-style:none;cursor:pointer;padding:20px 24px;display:flex;justify-content:space-between;align-items:center;gap:16px;font-weight:600;color:var(--ink);font-size:1.02rem}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:"+";font-size:1.6rem;color:var(--gold);font-weight:400;transition:transform .25s;line-height:1;flex-shrink:0}
+.faq-item[open] summary::after{transform:rotate(45deg)}
+.faq-item .answer{padding:0 24px 22px;color:var(--muted);line-height:1.65;font-size:.96rem}
+
+.contacto{background:radial-gradient(ellipse 60% 50% at 50% 100%,rgba(201,162,75,.08),transparent 60%),linear-gradient(160deg,var(--ink),var(--ink-2));color:#fff}
+.contacto .section-head h2{color:#fff}
+.contacto .section-head p{color:#c9d2de}
+.contacto .section-head .eyebrow{color:var(--gold-soft)}
+.canales{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin-bottom:38px}
+.canal{display:inline-flex;align-items:center;gap:9px;padding:11px 20px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:999px;color:#c9d2de;font-size:.9rem;transition:all .25s}
+.canal:hover{background:rgba(201,162,75,.12);border-color:var(--gold);color:#fff;transform:translateY(-1px)}
+.canal svg{width:16px;height:16px;color:var(--gold);flex-shrink:0}
+.form-card{background:var(--surface);color:var(--text);max-width:660px;margin-inline:auto;padding:44px 44px 36px;border-radius:var(--radius);box-shadow:var(--shadow-lg)}
+.field{margin-bottom:20px}
+.field label{display:block;font-weight:600;margin-bottom:8px;font-size:.92rem;color:var(--ink)}
+.field label .req{color:var(--gold);margin-left:4px}
+.field input,.field select,.field textarea{width:100%;padding:13px 15px;border:1.5px solid var(--line-2);border-radius:var(--radius-sm);background:var(--paper);font-size:1rem;transition:border-color .2s,background .2s}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--gold);background:var(--surface);outline:none}
+.field textarea{resize:vertical;min-height:100px}
+.error-msg{color:var(--danger);font-size:.82rem;margin-top:6px;display:none;font-family:var(--mono)}
+.field.invalido input,.field.invalido select,.field.invalido textarea{border-color:var(--danger);background:#fbf3f3}
+.field.invalido .error-msg{display:block}
+.tel-wrap{display:flex;align-items:stretch}
+.tel-wrap .prefix{background:var(--ink);color:#fff;display:flex;align-items:center;padding:0 16px;border-radius:var(--radius-sm) 0 0 var(--radius-sm);font-family:var(--mono);font-weight:500;font-size:.94rem}
+.tel-wrap input{border-radius:0 var(--radius-sm) var(--radius-sm) 0;border-left:none}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.form-card .btn{width:100%;margin-top:10px;padding:16px;font-size:1.02rem}
+.form-note{text-align:center;font-size:.82rem;color:var(--muted);margin-top:18px;display:flex;align-items:center;justify-content:center;gap:6px}
+.form-note svg{width:14px;height:14px;color:var(--gold);flex-shrink:0}
+
+.site-footer{background:var(--ink-3);color:#aab4c2;padding:56px 0 28px;text-align:center}
+.site-footer .logo{justify-content:center;margin-bottom:16px}
+.site-footer .logo-mark{animation:none}
+.site-footer .quote{font-family:var(--serif);color:var(--gold);font-style:italic;margin-bottom:24px;font-size:1.05rem}
+.footer-info{font-size:.9rem;margin:6px 0}
+.footer-info b{color:#d3dae4}
+.footer-info a:hover{color:var(--gold)}
+.footer-links{display:flex;justify-content:center;gap:24px;flex-wrap:wrap;margin:20px 0;font-size:.88rem}
+.footer-links a:hover{color:var(--gold)}
+.footer-fine{margin-top:22px;padding-top:22px;font-size:.82rem;color:#7a8698;border-top:1px solid rgba(255,255,255,.08);display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap}
+.footer-fine svg{width:14px;height:14px;flex-shrink:0}
+
+.wa-float{position:fixed;bottom:22px;right:22px;z-index:70;width:60px;height:60px;border-radius:50%;background:#25D366;color:#fff;display:inline-flex;align-items:center;justify-content:center;box-shadow:0 10px 26px rgba(37,211,102,.35);transition:transform var(--t)}
+.wa-float:hover{transform:scale(1.08)}
+.wa-float svg{width:30px;height:30px}
+.wa-float::after{content:"";position:absolute;inset:-6px;border-radius:50%;border:2px solid rgba(37,211,102,.5);animation:pulse 2.4s ease-out infinite}
+@keyframes pulse{0%{transform:scale(1);opacity:.7}100%{transform:scale(1.5);opacity:0}}
+
+.reveal{opacity:0;transform:translateY(20px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+
+@media(max-width:900px){
+  section{padding:64px 0}
+  .metrics-grid{grid-template-columns:repeat(2,1fr)}
+  .metric{border-right:none;border-bottom:1px solid var(--line);padding:20px 12px}
+  .metric:nth-child(2n+1){border-right:1px solid var(--line)}
+  .metric:nth-last-child(-n+2){border-bottom:none}
+  .pasos{grid-template-columns:repeat(2,1fr);gap:36px 20px}
+  .pasos::before{display:none}
+  .field-row{grid-template-columns:1fr}
+}
+@media(max-width:760px){
+  .header-contact{display:none}
+  .header-cta .btn{display:none}
+  .menu-btn{display:inline-block}
+  .nav ul{display:none;position:absolute;top:100%;left:0;right:0;background:var(--ink);flex-direction:column;gap:0;padding:8px 0;border-top:1px solid rgba(201,162,75,.18)}
+  .nav ul.open{display:flex}
+  .nav li{width:100%;text-align:center;padding:14px 0;border-bottom:1px solid rgba(255,255,255,.05)}
+  .nav li:last-child{border-bottom:none}
+  .form-card{padding:32px 22px}
+  .hero{padding:80px 0 70px}
+  .wa-float{width:54px;height:54px;bottom:18px;right:18px}
+  .wa-float svg{width:26px;height:26px}
+}
+@media(max-width:520px){
+  .pasos{grid-template-columns:1fr}
+  .metrics-grid{grid-template-columns:1fr}
+  .metric{border-right:none!important;border-bottom:1px solid var(--line)}
+  .metric:last-child{border-bottom:none}
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="#inicio" class="logo" aria-label="Inicio">
+      <svg class="logo-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 2l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V5l7-3z"/>
+        <line x1="12" y1="7" x2="12" y2="16"/><line x1="8" y1="9" x2="16" y2="9"/>
+        <path d="M8 9l-1.5 3h3L8 9zM16 9l-1.5 3h3L16 9z"/>
+      </svg>
+      <span class="logo-txt"><b id="brandName">Consultora Diaz</b><span id="brandTag">Asesoría Legal</span></span>
+    </a>
+    <nav class="nav" aria-label="Menú principal">
+      <ul id="menu">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#proceso">Proceso</a></li>
+        <li><a href="#precios">Precios</a></li>
+        <li><a href="#faq">Preguntas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div class="header-cta">
+      <div class="header-contact" id="headerContact"></div>
+      <a href="#contacto" class="btn btn-gold btn-sm">Consulta ahora</a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="wrap">
+    <span class="eyebrow reveal" id="heroEyebrow"></span>
+    <h1 class="reveal" id="heroTitulo"></h1>
+    <p class="lead reveal" id="heroLead"></p>
+    <div class="hero-actions reveal">
+      <a href="#contacto" class="btn btn-gold">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        <span id="heroBtn1"></span>
+      </a>
+      <a href="#precios" class="btn btn-outline" id="heroBtn2"></a>
+    </div>
+    <div class="trust-chips reveal" id="heroChips"></div>
+  </div>
+</section>
+
+<section class="metrics" style="padding:0" aria-label="Cifras clave">
+  <div class="wrap metrics-grid" id="metricsGrid"></div>
+</section>
+
+<section class="areas" id="servicios">
+  <div class="wrap">
+    <div class="section-head reveal" id="areasHead"></div>
+    <div class="areas-grid" id="gridAreas"></div>
+  </div>
+</section>
+
+<section class="proceso" id="proceso">
+  <div class="wrap">
+    <div class="section-head reveal" id="procesoHead"></div>
+    <div class="pasos reveal" id="gridPasos"></div>
+  </div>
+</section>
+
+<section class="precios" id="precios">
+  <div class="wrap">
+    <div class="section-head reveal" id="preciosHead"></div>
+    <h3 class="grupo-titulo reveal" id="tituloServicios"></h3>
+    <div class="precios-grid reveal" id="gridIndividuales"></div>
+    <h3 class="grupo-titulo reveal" id="tituloPaquetes"></h3>
+    <div class="precios-grid last reveal" id="gridPaquetes"></div>
+  </div>
+</section>
+
+<section class="testimonios">
+  <div class="wrap">
+    <div class="section-head reveal" id="testiHead"></div>
+    <div class="testi-grid" id="gridTesti"></div>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="wrap">
+    <div class="section-head reveal" id="faqHead"></div>
+    <div class="faq-list" id="faqList"></div>
+  </div>
+</section>
+
+<section class="contacto" id="contacto">
+  <div class="wrap">
+    <div class="section-head reveal" id="contactoHead"></div>
+    <div class="canales reveal" id="canales"></div>
+    <form class="form-card reveal" id="formConsulta" novalidate>
+      <div class="field" id="c-nombre">
+        <label for="nombre">Nombre completo <span class="req">*</span></label>
+        <input type="text" id="nombre" placeholder="Ej: Juan Pérez Ramírez" autocomplete="name">
+        <div class="error-msg">Ingresa tu nombre y apellido.</div>
+      </div>
+      <div class="field" id="c-telefono">
+        <label for="telefono">Número de WhatsApp <span class="req">*</span></label>
+        <div class="tel-wrap">
+          <span class="prefix">+51</span>
+          <input type="tel" id="telefono" placeholder="987 654 321" inputmode="numeric" autocomplete="tel-national">
+        </div>
+        <div class="error-msg">Ingresa un número peruano válido de 9 dígitos (empieza con 9).</div>
+      </div>
+      <div class="field" id="c-servicio">
+        <label for="servicio">¿En qué te ayudamos? <span class="req">*</span></label>
+        <select id="servicio"><option value="">Selecciona un área…</option></select>
+        <div class="error-msg">Elige el área de tu consulta.</div>
+      </div>
+      <div class="field" id="c-caso">
+        <label for="caso">Cuéntanos brevemente tu caso <span class="req">*</span></label>
+        <textarea id="caso" placeholder="Ej: Recibí una notificación de desalojo hace dos días..." maxlength="500"></textarea>
+        <div class="error-msg">Danos al menos una línea de contexto.</div>
+      </div>
+      <div class="field-row">
+        <div class="field" id="c-fecha">
+          <label for="fecha">Fecha preferida</label>
+          <input type="date" id="fecha">
+          <div class="error-msg">Elige una fecha desde hoy en adelante.</div>
+        </div>
+        <div class="field" id="c-hora">
+          <label for="hora">Hora preferida</label>
+          <select id="hora"><option value="">Horario…</option></select>
+          <div class="error-msg">Elige un horario.</div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-gold">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.03 0C5.46 0 .13 5.33.13 11.9c0 2.09.55 4.14 1.6 5.94L0 24l6.35-1.66a11.87 11.87 0 0 0 5.68 1.45h.01c6.57 0 11.9-5.33 11.9-11.9 0-3.18-1.24-6.17-3.48-8.41zM12.04 21.8h-.01a9.9 9.9 0 0 1-5.04-1.38l-.36-.22-3.77.99 1-3.68-.24-.38a9.87 9.87 0 0 1-1.52-5.24c0-5.46 4.44-9.9 9.9-9.9 2.65 0 5.13 1.03 7 2.9a9.85 9.85 0 0 1 2.9 7c0 5.46-4.44 9.9-9.9 9.9zm5.43-7.42c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.66.15-.2.3-.76.97-.93 1.17-.17.2-.34.22-.63.07-.3-.15-1.26-.46-2.4-1.48a9.02 9.02 0 0 1-1.66-2.06c-.17-.3-.02-.46.13-.6.13-.13.3-.34.44-.51.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.66-1.6-.91-2.19-.24-.58-.48-.5-.66-.51h-.56c-.2 0-.5.07-.77.37-.27.3-1.02 1-1.02 2.44s1.05 2.83 1.2 3.03c.15.2 2.07 3.15 5.02 4.42.7.3 1.25.48 1.68.62.7.22 1.35.19 1.86.11.57-.08 1.76-.72 2-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35z"/></svg>
+        <span id="btnEnviar"></span>
+      </button>
+      <p class="form-note">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        <span id="notaConfidencial"></span>
+      </p>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <a href="#inicio" class="logo">
+      <svg class="logo-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 2l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V5l7-3z"/>
+        <line x1="12" y1="7" x2="12" y2="16"/><line x1="8" y1="9" x2="16" y2="9"/>
+      </svg>
+      <span class="logo-txt"><b id="brandNameF">Consultora Diaz</b><span id="brandTagF">Asesoría Legal</span></span>
+    </a>
+    <p class="quote" id="footerQuote"></p>
+    <div id="footerContact"></div>
+    <nav class="footer-links" aria-label="Enlaces de pie">
+      <a href="#servicios">Servicios</a><a href="#proceso">Proceso</a><a href="#precios">Precios</a><a href="#faq">Preguntas</a><a href="#contacto">Contacto</a>
+    </nav>
+    <p class="footer-fine">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+      © <span id="year"></span> <span id="brandNameC">Consultora Diaz</span> · <span id="footerFine"></span>
+    </p>
+  </div>
+</footer>
+
+<a href="#" id="waFloat" class="wa-float" aria-label="Escríbenos por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.03 0C5.46 0 .13 5.33.13 11.9c0 2.09.55 4.14 1.6 5.94L0 24l6.35-1.66a11.87 11.87 0 0 0 5.68 1.45h.01c6.57 0 11.9-5.33 11.9-11.9 0-3.18-1.24-6.17-3.48-8.41zM12.04 21.8h-.01a9.9 9.9 0 0 1-5.04-1.38l-.36-.22-3.77.99 1-3.68-.24-.38a9.87 9.87 0 0 1-1.52-5.24c0-5.46 4.44-9.9 9.9-9.9 2.65 0 5.13 1.03 7 2.9a9.85 9.85 0 0 1 2.9 7c0 5.46-4.44 9.9-9.9 9.9zm5.43-7.42c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.66.15-.2.3-.76.97-.93 1.17-.17.2-.34.22-.63.07-.3-.15-1.26-.46-2.4-1.48a9.02 9.02 0 0 1-1.66-2.06c-.17-.3-.02-.46.13-.6.13-.13.3-.34.44-.51.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.66-1.6-.91-2.19-.24-.58-.48-.5-.66-.51h-.56c-.2 0-.5.07-.77.37-.27.3-1.02 1-1.02 2.44s1.05 2.83 1.2 3.03c.15.2 2.07 3.15 5.02 4.42.7.3 1.25.48 1.68.62.7.22 1.35.19 1.86.11.57-.08 1.76-.72 2-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35z"/></svg>
+</a>
+
+<script>
+/* ===CONFIG-START=== NO BORRES ESTA LINEA — el editor la usa para encontrar la configuracion */
+const CONFIG = {
+  "marca": {
+    "nombre": "Consultora Diaz",
+    "bajada": "Asesoría Legal"
+  },
+  "contacto": {
+    "whatsapp": "+51 922845862",
+    "telefonoMostrar": "+51 922845862",
+    "email": "consultoriadiaz.legal@gmail.com",
+    "horario": "Lunes a Sábado · 6:00 PM - 10:00 PM",
+    "waMensaje": "Hola, quisiera una consulta legal."
+  },
+  "hero": {
+    "eyebrow": "Asesoría legal 100% online · Todo el Perú",
+    "titulo": "Tu problema legal, con",
+    "tituloDestacado": "respuesta clara",
+    "tituloFin": "y sin rodeos.",
+    "lead": "Vivienda, familia, herencias, laboral, Indecopi. Te atendemos por videollamada y WhatsApp desde donde estés. Evaluamos tu caso y te decimos, en cristiano, qué hacer y cuánto cuesta.",
+    "btn1": "Evaluar mi caso",
+    "btn2": "Ver precios",
+    "chips": [
+      {
+        "icono": "lock",
+        "texto": "100% confidencial"
+      },
+      {
+        "icono": "bolt",
+        "texto": "Respuesta rápida por WhatsApp"
+      },
+      {
+        "icono": "video",
+        "texto": "Atención 100% online"
+      },
+      {
+        "icono": "clock",
+        "texto": "Consulta desde S/30"
+      }
+    ]
+  },
+  "metricas": [
+    {
+      "numero": "10",
+      "sufijo": "+",
+      "etiqueta": "Años ejerciendo"
+    },
+    {
+      "numero": "500",
+      "sufijo": "+",
+      "etiqueta": "Casos atendidos"
+    },
+    {
+      "numero": "24",
+      "sufijo": "reg",
+      "etiqueta": "Regiones atendidas"
+    },
+    {
+      "numero": "100",
+      "sufijo": "%",
+      "etiqueta": "Atención online"
+    }
+  ],
+  "areasHead": {
+    "eyebrow": "Nuestros servicios",
+    "titulo": "Áreas de práctica",
+    "texto": "Ocho especialidades bajo un mismo estudio. Si tu caso no está en la lista, escríbenos: te decimos si podemos ayudarte antes de cobrarte."
+  },
+  "areas": [
+    {
+      "titulo": "Vivienda y Propiedades",
+      "texto": "Compra, venta, desalojos y conflictos entre vecinos o inquilinos."
+    },
+    {
+      "titulo": "Familia y Herencias",
+      "texto": "Sucesiones, testamentos, divorcios y régimen de tenencia."
+    },
+    {
+      "titulo": "Repartición de Bienes",
+      "texto": "División patrimonial justa entre socios, cónyuges o herederos."
+    },
+    {
+      "titulo": "Inscripciones de Propiedad",
+      "texto": "Registro público, saneamiento e independización de inmuebles."
+    },
+    {
+      "titulo": "Demandas y Juicios",
+      "texto": "Representación en procesos civiles, comerciales y familiares."
+    },
+    {
+      "titulo": "Indecopi y Negocios",
+      "texto": "Defensa del consumidor, contratos comerciales y reclamos."
+    },
+    {
+      "titulo": "Revisión de Documentos",
+      "texto": "Análisis de contratos, minutas y documentos legales antes de firmar."
+    },
+    {
+      "titulo": "Derecho Laboral",
+      "texto": "Despidos arbitrarios, beneficios sociales, CTS y liquidaciones."
+    }
+  ],
+  "procesoHead": {
+    "eyebrow": "Cómo trabajamos",
+    "titulo": "Del problema a la solución en 4 pasos",
+    "texto": "Todo se maneja online, sin que tengas que moverte de donde estás."
+  },
+  "pasos": [
+    {
+      "titulo": "Cuéntanos tu caso",
+      "texto": "Escríbenos por WhatsApp o llena el formulario. Sin costo, sin compromiso."
+    },
+    {
+      "titulo": "Evaluamos",
+      "texto": "Revisamos tu situación y te decimos si el caso es viable y qué opciones tienes."
+    },
+    {
+      "titulo": "Consultoría por videollamada",
+      "texto": "Agendamos una sesión por Zoom, Meet o WhatsApp con estrategia por escrito."
+    },
+    {
+      "titulo": "Actuamos",
+      "texto": "Si nos contratas, iniciamos gestiones o representación con presupuesto fijo."
+    }
+  ],
+  "preciosHead": {
+    "eyebrow": "Inversión transparente",
+    "titulo": "Precios y paquetes",
+    "texto": "Todos los precios están publicados. Nada oculto, nada \"según el caso\" sin explicación."
+  },
+  "tituloServicios": "Servicios individuales",
+  "tituloPaquetes": "Paquetes promocionales",
+  "servicios": [
+    {
+      "nombre": "Consultoría legal",
+      "precio": 30,
+      "detalle": "por sesión (~45 min)",
+      "incluye": [
+        "Orientación legal personalizada",
+        "Videollamada por Zoom, Meet o WhatsApp",
+        "Resumen escrito con próximos pasos"
+      ]
+    },
+    {
+      "nombre": "Revisión de documentos",
+      "precio": 20,
+      "detalle": "por documento",
+      "incluye": [
+        "Análisis profesional del contrato",
+        "Identificación de cláusulas riesgosas",
+        "Sugerencias de modificación por escrito"
+      ]
+    }
+  ],
+  "paquetes": [
+    {
+      "nombre": "Pack Básico",
+      "precio": 40,
+      "destacado": false,
+      "incluye": [
+        "2 consultorías legales",
+        "Válido por 30 días",
+        "Coordinación por WhatsApp"
+      ]
+    },
+    {
+      "nombre": "Pack Emprendedor",
+      "precio": 80,
+      "destacado": true,
+      "incluye": [
+        "1 consultoría legal",
+        "1 revisión de documentos",
+        "1 escrito básico (carta notarial)",
+        "Válido por 60 días"
+      ]
+    },
+    {
+      "nombre": "Pack Protección Total",
+      "precio": 120,
+      "destacado": false,
+      "incluye": [
+        "3 consultorías legales",
+        "2 revisiones de documentos",
+        "1 escrito legal",
+        "Válido por 90 días"
+      ]
+    }
+  ],
+  "testiHead": {
+    "eyebrow": "Casos reales",
+    "titulo": "Lo que dicen nuestros clientes",
+    "texto": "Testimonios verificados. Los detalles del caso están anonimizados para proteger la confidencialidad."
+  },
+  "testimonios": [
+    {
+      "texto": "Me ayudaron con un desalojo que llevaba meses paralizado. Todo se coordinó por videollamada desde mi casa.",
+      "quien": "Cliente · Lima",
+      "caso": "Caso de vivienda",
+      "resultado": "Resuelto en 14 días"
+    },
+    {
+      "texto": "Pensé que necesitaba un juicio largo y me explicaron una solución más rápida. Ahorro real de tiempo y dinero.",
+      "quien": "Cliente · Trujillo",
+      "caso": "Herencias",
+      "resultado": "Sucesión intestada en 3 meses"
+    },
+    {
+      "texto": "Me despidieron sin liquidación completa. Lograron que me pagaran todo lo adeudado sin ir a juicio.",
+      "quien": "Cliente · Arequipa",
+      "caso": "Laboral",
+      "resultado": "Beneficios recuperados 100%"
+    }
+  ],
+  "faqHead": {
+    "eyebrow": "Preguntas frecuentes",
+    "titulo": "Antes de escribirnos",
+    "texto": ""
+  },
+  "faq": [
+    {
+      "q": "¿Cómo puedo pagar la consulta?",
+      "a": "Aceptamos Yape, Plin y transferencia bancaria (BCP, Interbank, BBVA). Te enviamos el detalle apenas confirmemos el horario."
+    },
+    {
+      "q": "¿Cómo son las consultas?",
+      "a": "Todas nuestras consultas son online. Nos conectamos por videollamada (Zoom, Google Meet) o por WhatsApp, según lo que te resulte más cómodo. Tú eliges el horario dentro de nuestra disponibilidad."
+    },
+    {
+      "q": "¿Qué pasa si necesito representación en un juicio?",
+      "a": "Si después de la consultoría decides contratarnos para llevar tu caso, te damos un presupuesto fijo por escrito, sin sorpresas. Los honorarios dependen de la complejidad y duración del proceso."
+    },
+    {
+      "q": "¿Mi información está protegida?",
+      "a": "Absolutamente. Todo lo que compartas está cubierto por el secreto profesional del abogado. No compartimos datos con terceros ni usamos tu caso como ejemplo sin autorización expresa."
+    },
+    {
+      "q": "¿Atienden en todo el Perú?",
+      "a": "Sí. Al ser un servicio 100% online, atendemos clientes de cualquier región del país sin importar dónde te encuentres. Los documentos se envían y firman de forma digital."
+    },
+    {
+      "q": "¿Necesito enviar documentos?",
+      "a": "Depende del caso. Si es necesario, puedes enviarnos fotos o PDFs por WhatsApp o correo antes de la sesión, así aprovechamos mejor el tiempo de la consulta."
+    }
+  ],
+  "contactoHead": {
+    "eyebrow": "Agenda ahora",
+    "titulo": "Solicita tu asesoría",
+    "texto": "Llena el formulario y te contactamos por WhatsApp para confirmar tu horario. Toma menos de un minuto."
+  },
+  "horarios": [
+    "6:00 PM",
+    "7:00 PM",
+    "8:00 PM",
+    "9:00 PM"
+  ],
+  "textos": {
+    "btnEnviar": "Enviar por WhatsApp",
+    "notaConfidencial": "Tu información es confidencial y está protegida por el secreto profesional.",
+    "footerQuote": "\"Tu tranquilidad legal, a un clic de distancia.\"",
+    "footerFine": "Toda la información compartida es tratada con estricta confidencialidad."
+  }
+};
+/* ===CONFIG-END=== NO BORRES ESTA LINEA */
+
+/* ============================================================
+   A PARTIR DE AQUI NO NECESITAS EDITAR NADA.
+   Para cambiar contenido usa el archivo editor.html
+   ============================================================ */
+
+const ICONS = {
+  lock:'<rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>',
+  bolt:'<polyline points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>',
+  clock:'<circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>',
+  video:'<polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2"/>',
+  shield:'<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>',
+  check:'<polyline points="20 6 9 17 4 12"/>',
+  globe:'<circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>'
+};
+function icon(name){
+  return '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+(ICONS[name]||ICONS.check)+'</svg>';
+}
+function esc(s){
+  return String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+const iconArea = '<svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V5l7-3z"/><path d="M9 12l2 2 4-4"/></svg>';
+
+const io = new IntersectionObserver(es=>{
+  es.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); } });
+},{threshold:.15});
+
+function head(o){
+  return '<span class="eyebrow">'+esc(o.eyebrow)+'</span><h2>'+esc(o.titulo)+'</h2>'+(o.texto?'<p>'+esc(o.texto)+'</p>':'');
+}
+
+function render(){
+  const C = CONFIG, ct = C.contacto, wa = ct.whatsapp.replace(/\D/g,"");
+
+  // Marca
+  document.getElementById("brandName").textContent  = C.marca.nombre;
+  document.getElementById("brandNameF").textContent = C.marca.nombre;
+  document.getElementById("brandNameC").textContent = C.marca.nombre;
+  document.getElementById("brandTag").textContent   = C.marca.bajada;
+  document.getElementById("brandTagF").textContent  = C.marca.bajada;
+  document.title = C.marca.nombre + " | " + C.marca.bajada + " Online en Perú";
+
+  // Contacto header
+  document.getElementById("headerContact").innerHTML =
+    '<a href="https://wa.me/'+esc(wa)+'" target="_blank" rel="noopener">'+icon("bolt")+'<span>'+esc(ct.telefonoMostrar)+'</span></a>'+
+    '<a href="mailto:'+esc(ct.email)+'"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><span>'+esc(ct.email)+'</span></a>';
+
+  // Hero
+  document.getElementById("heroEyebrow").textContent = C.hero.eyebrow;
+  document.getElementById("heroTitulo").innerHTML = esc(C.hero.titulo)+' <em>'+esc(C.hero.tituloDestacado)+'</em> '+esc(C.hero.tituloFin);
+  document.getElementById("heroLead").textContent = C.hero.lead;
+  document.getElementById("heroBtn1").textContent = C.hero.btn1;
+  document.getElementById("heroBtn2").textContent = C.hero.btn2;
+  document.getElementById("heroChips").innerHTML = C.hero.chips.map(c=>
+    '<span class="chip">'+icon(c.icono)+esc(c.texto)+'</span>').join("");
+
+  // Métricas
+  document.getElementById("metricsGrid").innerHTML = C.metricas.map(m=>
+    '<div class="metric"><div class="n mono">'+esc(m.numero)+'<small>'+esc(m.sufijo)+'</small></div><div class="l">'+esc(m.etiqueta)+'</div></div>').join("");
+
+  // Encabezados
+  document.getElementById("areasHead").innerHTML    = head(C.areasHead);
+  document.getElementById("procesoHead").innerHTML  = head(C.procesoHead);
+  document.getElementById("preciosHead").innerHTML  = head(C.preciosHead);
+  document.getElementById("testiHead").innerHTML    = head(C.testiHead);
+  document.getElementById("faqHead").innerHTML      = head(C.faqHead);
+  document.getElementById("contactoHead").innerHTML = head(C.contactoHead);
+  document.getElementById("tituloServicios").textContent = C.tituloServicios;
+  document.getElementById("tituloPaquetes").textContent  = C.tituloPaquetes;
+
+  // Áreas
+  document.getElementById("gridAreas").innerHTML = C.areas.map(a=>
+    '<article class="area-card reveal">'+iconArea+'<h3>'+esc(a.titulo)+'</h3><p>'+esc(a.texto)+'</p><a href="#contacto" class="card-link" data-pick="'+esc(a.titulo)+'">Solicitar asesoría</a></article>').join("");
+
+  // Pasos
+  document.getElementById("gridPasos").innerHTML = C.pasos.map((p,i)=>
+    '<div class="paso"><div class="num mono">'+(i+1)+'</div><h3>'+esc(p.titulo)+'</h3><p>'+esc(p.texto)+'</p></div>').join("");
+
+  // Precios
+  document.getElementById("gridIndividuales").innerHTML = C.servicios.map(s=>
+    '<div class="price-card reveal"><h3>'+esc(s.nombre)+'</h3><div class="price">S/'+esc(s.precio)+'</div><div class="price-note">'+esc(s.detalle)+'</div><ul>'+
+    (s.incluye||[]).map(i=>'<li>'+esc(i)+'</li>').join("")+
+    '</ul><a href="#contacto" class="btn btn-outline" data-pick="'+esc(s.nombre)+'">Solicitar</a></div>').join("");
+
+  document.getElementById("gridPaquetes").innerHTML = C.paquetes.map(p=>
+    '<div class="price-card '+(p.destacado?"featured":"")+' reveal">'+(p.destacado?'<span class="badge">Recomendado</span>':'')+
+    '<h3>'+esc(p.nombre)+'</h3><div class="price">S/'+esc(p.precio)+'</div><div class="price-note">pago único</div><ul>'+
+    (p.incluye||[]).map(i=>'<li>'+esc(i)+'</li>').join("")+
+    '</ul><a href="#contacto" class="btn '+(p.destacado?"btn-gold":"btn-outline")+'" data-pick="'+esc(p.nombre)+'">Elegir paquete</a></div>').join("");
+
+  // Testimonios
+  document.getElementById("gridTesti").innerHTML = C.testimonios.map(t=>
+    '<article class="testi reveal"><blockquote>'+esc(t.texto)+'</blockquote><div class="who"><span>'+esc(t.caso)+'</span><strong>'+esc(t.quien)+'</strong><em>'+esc(t.resultado)+'</em></div></article>').join("");
+
+  // FAQ
+  document.getElementById("faqList").innerHTML = C.faq.map(f=>
+    '<details class="faq-item"><summary>'+esc(f.q)+'</summary><div class="answer"><p>'+esc(f.a)+'</p></div></details>').join("");
+
+  // Canales
+  document.getElementById("canales").innerHTML =
+    '<a class="canal" href="https://wa.me/'+esc(wa)+'?text='+encodeURIComponent(ct.waMensaje)+'" target="_blank" rel="noopener">'+
+      '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.86 11.86 0 0 0 12.03 0C5.46 0 .13 5.33.13 11.9c0 2.09.55 4.14 1.6 5.94L0 24l6.35-1.66a11.87 11.87 0 0 0 5.68 1.45c6.57 0 11.9-5.33 11.9-11.9 0-3.18-1.24-6.17-3.48-8.41z"/></svg>'+
+      'WhatsApp '+esc(ct.telefonoMostrar)+'</a>'+
+    '<a class="canal" href="mailto:'+esc(ct.email)+'">'+
+      '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>'+
+      esc(ct.email)+'</a>'+
+    '<span class="canal">'+icon("clock")+esc(ct.horario)+'</span>';
+
+  // Footer
+  document.getElementById("footerQuote").textContent = C.textos.footerQuote;
+  document.getElementById("footerFine").textContent  = C.textos.footerFine;
+  document.getElementById("footerContact").innerHTML =
+    '<p class="footer-info"><b>Horario:</b> '+esc(ct.horario)+'</p>'+
+    '<p class="footer-info"><b>WhatsApp:</b> <a href="https://wa.me/'+esc(wa)+'" target="_blank" rel="noopener">'+esc(ct.telefonoMostrar)+'</a></p>'+
+    '<p class="footer-info"><b>Correo:</b> <a href="mailto:'+esc(ct.email)+'">'+esc(ct.email)+'</a></p>';
+
+  // Formulario
+  document.getElementById("btnEnviar").textContent = C.textos.btnEnviar;
+  document.getElementById("notaConfidencial").textContent = C.textos.notaConfidencial;
+
+  const sel = document.getElementById("servicio");
+  sel.innerHTML = '<option value="">Selecciona un área…</option>';
+  C.servicios.forEach(s=>sel.insertAdjacentHTML("beforeend",'<option value="'+esc(s.nombre)+'" data-precio="'+esc(s.precio)+'">'+esc(s.nombre)+' · S/'+esc(s.precio)+'</option>'));
+  C.paquetes.forEach(p=>sel.insertAdjacentHTML("beforeend",'<option value="'+esc(p.nombre)+'" data-precio="'+esc(p.precio)+'">'+esc(p.nombre)+' · S/'+esc(p.precio)+'</option>'));
+  C.areas.forEach(a=>sel.insertAdjacentHTML("beforeend",'<option value="'+esc(a.titulo)+'">'+esc(a.titulo)+' (necesito orientación)</option>'));
+
+  const selH = document.getElementById("hora");
+  selH.innerHTML = '<option value="">Horario…</option>';
+  C.horarios.forEach(h=>selH.insertAdjacentHTML("beforeend",'<option value="'+esc(h)+'">'+esc(h)+'</option>'));
+
+  document.querySelectorAll("[data-pick]").forEach(el=>{
+    el.addEventListener("click",()=>{
+      const v = el.dataset.pick;
+      setTimeout(()=>{ if([...sel.options].some(o=>o.value===v)) sel.value = v; },300);
+    });
+  });
+
+  document.querySelectorAll(".reveal:not(.in)").forEach(el=>io.observe(el));
+}
+
+render();
+
+document.getElementById("year").textContent = new Date().getFullYear();
+const hoyISO = new Date().toISOString().split("T")[0];
+document.getElementById("fecha").min = hoyISO;
+
+const menuBtn = document.getElementById("menuBtn"), menu = document.getElementById("menu");
+menuBtn.addEventListener("click",()=>{
+  const o = menu.classList.toggle("open");
+  menuBtn.setAttribute("aria-expanded",o);
+  menuBtn.textContent = o ? "✕" : "☰";
+});
+menu.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{
+  menu.classList.remove("open");
+  menuBtn.setAttribute("aria-expanded","false");
+  menuBtn.textContent="☰";
+}));
+
+document.getElementById("waFloat").addEventListener("click",e=>{
+  e.preventDefault();
+  const wa = CONFIG.contacto.whatsapp.replace(/\D/g,"");
+  window.open("https://wa.me/"+wa+"?text="+encodeURIComponent(CONFIG.contacto.waMensaje),"_blank","noopener");
+});
+
+/* Formulario */
+const form = document.getElementById("formConsulta");
+function setErr(id,v){ document.getElementById(id).classList.toggle("invalido",v); }
+function soloDig(v){
+  let d = (v||"").replace(/\D/g,"");
+  if(d.length > 9 && d.slice(0,2) === "51") d = d.slice(2);   // pegó "+51 987 654 321"
+  if(d.length > 9 && d.charAt(0) === "0")   d = d.slice(1);   // pegó "0987654321"
+  return d.slice(0,9);
+}
+document.getElementById("telefono").addEventListener("input",e=>{ e.target.value = soloDig(e.target.value); });
+function fechaES(iso){
+  if(!iso) return "";
+  return new Date(iso+"T12:00:00").toLocaleDateString("es-PE",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+}
+form.addEventListener("submit",e=>{
+  e.preventDefault();
+  const nombre = document.getElementById("nombre").value.trim();
+  const tel    = soloDig(document.getElementById("telefono").value);
+  const serv   = document.getElementById("servicio").value;
+  const caso   = document.getElementById("caso").value.trim();
+  const fecha  = document.getElementById("fecha").value;
+  const hora   = document.getElementById("hora").value;
+
+  const eN = nombre.length<3 || !nombre.includes(" ");
+  const eT = !/^9\d{8}$/.test(tel);
+  const eS = !serv, eC = caso.length<10;
+  const eF = !fecha || fecha < hoyISO, eH = !hora;
+
+  setErr("c-nombre",eN); setErr("c-telefono",eT); setErr("c-servicio",eS);
+  setErr("c-caso",eC); setErr("c-fecha",eF); setErr("c-hora",eH);
+
+  if(eN||eT||eS||eC||eF||eH){
+    const p = form.querySelector(".invalido input, .invalido select, .invalido textarea");
+    if(p) p.focus();
+    return;
+  }
+  const opt = document.getElementById("servicio").selectedOptions[0];
+  const precio = opt && opt.dataset.precio ? "S/"+opt.dataset.precio : "por confirmar";
+  const msg =
+"🔔 *NUEVA CONSULTA · "+CONFIG.marca.nombre+"*\n\n"+
+"👤 *Nombre:* "+nombre+"\n"+
+"📱 *WhatsApp:* +51 "+tel+"\n"+
+"⚖️ *Servicio:* "+serv+"\n"+
+"💰 *Costo:* "+precio+"\n\n"+
+"📝 *Descripción del caso:*\n"+caso+"\n\n"+
+"📅 *Fecha preferida:* "+fechaES(fecha)+"\n"+
+"🕓 *Hora preferida:* "+hora+"\n\n"+
+"_Enviado desde el sitio web_";
+  const wa = CONFIG.contacto.whatsapp.replace(/\D/g,"");
+  window.open("https://wa.me/"+wa+"?text="+encodeURIComponent(msg),"_blank","noopener");
+});
+
+/* SEO schema */
+(function(){
+  const s = document.createElement("script");
+  s.type = "application/ld+json";
+  s.textContent = JSON.stringify({
+    "@context":"https://schema.org","@type":"LegalService",
+    "name":CONFIG.marca.nombre,
+    "description":"Asesoría legal 100% online en todo el Perú.",
+    "telephone":"+"+CONFIG.contacto.whatsapp.replace(/\D/g,""),
+    "email":CONFIG.contacto.email,
+    "priceRange":"S/20 - S/120",
+    "areaServed":{"@type":"Country","name":"Perú"},
+    "availableChannel":{"@type":"ServiceChannel","serviceUrl":"https://wa.me/"+CONFIG.contacto.whatsapp.replace(/\D/g,"")}
+  });
+  document.head.appendChild(s);
+})();
+</script>
+</body>
+</html>
